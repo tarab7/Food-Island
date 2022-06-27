@@ -1,0 +1,125 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.imageColumn {
+    background-image: url("https://img.freepik.com/free-vector/black-wallpaper-with-motion-lines-background_1017-30151.jpg?w=360");
+    float: left;
+    width: 25%;
+    padding: 10px;
+ }
+  .div1{
+    background-image: url("https://img.freepik.com/free-vector/black-wallpaper-with-motion-lines-background_1017-30151.jpg?w=360");
+    width:100%;
+    align-items: center;
+    justify-content:space-between;
+    margin:auto;
+
+  }
+  .div2{
+    background-image: url("https://img.freepik.com/free-vector/black-wallpaper-with-motion-lines-background_1017-30151.jpg?w=360");
+    width:100%;
+    align-items: center;
+    justify-content:space-between;
+    margin:auto;
+
+  }
+  .div2 p{
+    text-align: right;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+  .div1 h1{
+    color:olivedrab;
+    text-align: right;
+    font-family: fantasy;
+    font-size: 80px;
+
+    
+
+  }
+  .div1 p{
+    text-align: right;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+.imageColumn h3{
+
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+  .menu{
+    width:100%;
+    margin:auto;
+    padding:15px 0;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    cursor:pointer;
+    background-color: rgb(19, 18, 18);
+    color:white;
+}
+.menu ul li{
+    list-style: none;
+    display:inline-block;
+    margin:0 3px;
+
+}
+.menu h3{
+  font-weight: lighter;
+  font-family:'Courier New', Courier, monospace;
+  border:0;
+  border: 1px solid #eed70c;
+  padding: 6px;
+}
+.logo{
+    left:5cm;
+      width:70px;
+      cursor:pointer;
+  }
+  .infra {
+    background: url(https://images.squarespace-cdn.com/content/v1/57ab51981b631bb0ce74a9fc/1634075135275-7GKMI45MKI4M5V80SHAX/4O0A3686.jpg?format=2500w);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90%;
+    width: 100%;
+
+
+}
+.infra h1{
+  color:white;
+  text-decoration: underline;
+  text-decoration-color: black; 
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 30px;
+  margin-right: 40%;
+}
+.infra p{
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+ 
+}
+.social-icons{
+  width:50px;
+  position:fixed;
+  top:70%;
+  right:0;
+  transform: translateY(-50%);
+  z-index:1;
+}
+.social-icons img{
+  display:block;
+  width:30px;
+  margin:0 auto 20px;
+  cursor: pointer;
+}
